@@ -1,0 +1,134 @@
+/*Global decorations*/
+.textshadow{
+    text-shadow: 4px 4px #000000f1;
+}
+
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.gifcolor {
+    background-color: #27213a9f;
+}
+
+.gifb {
+    opacity: 0.5;
+}
+
+.textcolor {
+    color: #BBADFF;
+}
+
+.textcolor2 {
+    color: #bbadff7e;
+}
+
+.content {
+    background-color: #000000f1;
+}
+
+/* unvisited link */
+a:link {
+    color: #BBADFF !important;
+}
+
+/* visited link */
+a:visited {
+    color: #BBADFF !important;
+}
+
+/* mouse over link */
+a:hover {
+    color: #bbadff7e !important;
+}
+
+/* selected link */
+a:active {
+    color: #BBADFF !important;
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+/*Index*/
+
+.cardb {
+    opacity: 0.8;
+}
+
+.textcolor1 {
+    color: #927ef5;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.head-banner {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.747),
+            rgba(0, 0, 0, 0.678)),
+        url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: #6751d4;
+    border-width: 2px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+
+
+/*Tesla decorations*/
+.banner2 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.747),
+            rgba(0, 0, 0, 0.678)),
+        url("../img/bg2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Ai decorations*/
+.banner1 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.747),
+            rgba(0, 0, 0, 0.678)),
+        url("../img/ai.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner3 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.747),
+            rgba(0, 0, 0, 0.678)),
+        url("../img/rbbg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .content {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .head-banner {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
